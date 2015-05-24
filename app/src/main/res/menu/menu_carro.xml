@@ -1,0 +1,14 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context="com.oskrojas.elrefri.Carro">
+
+    <item android:id="@+id/action_ayuda" android:title="@string/action_ayuda"
+        android:orderInCategory="100" app:showAsAction="never" />
+
+    <item android:id="@+id/action_eliminar" android:title="@string/action_eliminar"
+        android:orderInCategory="100" app:showAsAction="never" />
+
+    <item android:id="@+id/action_atras" android:title="@string/action_atras"
+        android:orderInCategory="100" app:showAsAction="never" />
+
+</menu>
