@@ -140,21 +140,26 @@ public class Tienda extends Fragment {
         np.setWrapSelectorWheel(false);
         builder.setView(np);
 
+        Toast.makeText(parentView.getContext(), "Prueba:"+ np, Toast.LENGTH_LONG).show();
+
         builder.setPositiveButton("Agregar", new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialog, int which) {
 
                 //SQLITE
-           //     nombre = nombre.getText().toString();
-           //     precio = Integer.valueOf(precio.getText().toString());
+                //     nombre = nombre.getText().toString();
+                //     precio = Integer.valueOf(precio.getText().toString());
                 cantidad = Integer.valueOf(np.getValue());
+
+                /*
 
                 dbAdapter.insertProducto(name.getText().toString(),
                         Integer.valueOf(price.getText().toString()),
                         Integer.valueOf(np.getValue()));
 
+                */
 
-                Toast.makeText(parentView.getContext(), "Se realizó la compra de todos tus productos", Toast.LENGTH_LONG).show();
+                Toast.makeText(parentView.getContext(), "Se agregó el producto exitosamente. "+cantidad, Toast.LENGTH_LONG).show();
 
 
                 dialog.dismiss();

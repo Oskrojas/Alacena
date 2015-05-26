@@ -1,7 +1,7 @@
 package com.oskrojas.elrefri;
 
 /**
- * Creado por Hermosa Programación el 18/01/2015.
+ * Creado por Oscar Rojas
  */
 public class Producto {
     private String nombre;

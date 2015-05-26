@@ -64,13 +64,13 @@ public class Carro extends ActionBarActivity {
 
 
 
-
         list = (ListView) findViewById(R.id.lista_carro);
 
         dbAdapter = new MyDBAdapter(Carro.this);
         dbAdapter.open();
 
 
+        loadList();
     }
 
 
